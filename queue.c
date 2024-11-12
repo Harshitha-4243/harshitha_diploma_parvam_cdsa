@@ -1,7 +1,7 @@
 #include<stdio.h>
 //define of queue structure
 typedef struct{
-    +
+
     int data[5];
     int front;
     int rear;
@@ -20,7 +20,7 @@ int isEmpty(Queue *q){
 int isFull(Queue *q){
     return q->rear==4;//0==4?
 }
-//Add an elemrnt to the rear of the queue
+//Add an element to the rear of the queue
 void enqueue(Queue *q,int value){
     if(isFull(q)){
         printf("Queue overflow!\n");
