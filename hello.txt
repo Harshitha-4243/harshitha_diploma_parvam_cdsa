@@ -1,0 +1,2 @@
+ Thistfhbnline.
+Writing to file will overwrite its content.
